@@ -37,6 +37,6 @@ app.get('/', (req, res) => {
   res.json({ message: 'HonesTech API Server Running' });
 });
 
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`Server running on port ${PORT}`);
+app.listen(PORT, () => {
+  console.log(`HonesTech API Server is running on http://localhost:${PORT}`);
 });
