@@ -5,16 +5,19 @@ const Footer = () => {
     <footer className="footer">
       <div className="container">
         <div className="footer-content">
-          <div className="footer-section">
-            <h3>HonesTech Enterprises</h3>
+          <div className="footer-brand">
+            <div className="logo">
+              <div className="logo-icon">HT</div>
+              <h3>HonesTech</h3>
+            </div>
             <p>
               Your trusted partner in cybersecurity and IT solutions. 
-              Protecting businesses from digital threats since day one.
+              Protecting businesses from digital threats with cutting-edge technology.
             </p>
             <div className="social-links">
-              <a href="#" aria-label="LinkedIn">💼</a>
-              <a href="#" aria-label="Twitter">🐦</a>
-              <a href="#" aria-label="Facebook">📘</a>
+              <a href="#" aria-label="LinkedIn">in</a>
+              <a href="#" aria-label="Twitter">𝕏</a>
+              <a href="#" aria-label="GitHub">⌘</a>
             </div>
           </div>
 
@@ -24,7 +27,7 @@ const Footer = () => {
               <li><a href="#services">Security Audits</a></li>
               <li><a href="#services">Penetration Testing</a></li>
               <li><a href="#services">IT Support</a></li>
-              <li><a href="#services">Cloud Services</a></li>
+              <li><a href="#services">Cloud Solutions</a></li>
             </ul>
           </div>
 
@@ -39,19 +42,21 @@ const Footer = () => {
           </div>
 
           <div className="footer-section">
-            <h4>Support</h4>
+            <h4>Legal</h4>
             <ul>
-              <li><a href="#">Help Center</a></li>
-              <li><a href="#">Documentation</a></li>
               <li><a href="#">Privacy Policy</a></li>
               <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Security Policy</a></li>
+              <li><a href="#">Compliance</a></li>
             </ul>
           </div>
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; 2024 HonesTech Enterprises. All rights reserved.</p>
-          <p>Securing your digital future, one solution at a time.</p>
+          <p>© 2026 HonesTech Enterprises. All systems operational.</p>
+          <div className="status">
+            All systems operational
+          </div>
         </div>
       </div>
     </footer>
