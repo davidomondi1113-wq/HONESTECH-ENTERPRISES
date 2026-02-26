@@ -6,7 +6,8 @@ const About = () => {
       <div className="container">
         <div className="about-content">
           <div className="about-text">
-            <h2>About HonesTech Enterprises</h2>
+            <span className="label">// About Us</span>
+            <h2>Defending Your Digital <span className="gradient">Frontier</span></h2>
             <p>
               Founded with a mission to secure the digital landscape, HonesTech Enterprises 
               has been at the forefront of cybersecurity and IT solutions. Our team of 
@@ -21,28 +22,41 @@ const About = () => {
             
             <div className="features">
               <div className="feature">
-                <span className="feature-icon">✓</span>
-                <span>Certified Security Professionals</span>
+                <div className="feature-icon">✓</div>
+                <div className="feature-text">
+                  <h4>Certified Experts</h4>
+                  <p>Industry-certified security professionals</p>
+                </div>
               </div>
               <div className="feature">
-                <span className="feature-icon">✓</span>
-                <span>Industry-Leading Tools & Techniques</span>
+                <div className="feature-icon">✓</div>
+                <div className="feature-text">
+                  <h4>Advanced Tools</h4>
+                  <p>Leading-edge security technologies</p>
+                </div>
               </div>
               <div className="feature">
-                <span className="feature-icon">✓</span>
-                <span>Customized Solutions for Every Business</span>
+                <div className="feature-icon">✓</div>
+                <div className="feature-text">
+                  <h4>Tailored Solutions</h4>
+                  <p>Custom strategies for every client</p>
+                </div>
               </div>
               <div className="feature">
-                <span className="feature-icon">✓</span>
-                <span>24/7 Monitoring & Support</span>
+                <div className="feature-icon">✓</div>
+                <div className="feature-text">
+                  <h4>Round-the-Clock</h4>
+                  <p>24/7 monitoring and support</p>
+                </div>
               </div>
             </div>
           </div>
           
-          <div className="about-image">
+          <div className="about-visual">
             <div className="placeholder-image">
-              <span>🛡️</span>
-              <p>Your Security Partner</p>
+              <div className="scanner-line"></div>
+              <div className="shield-icon">🛡️</div>
+              <p>SECURE // PROTECTED // MONITORED</p>
             </div>
           </div>
         </div>
