@@ -7,8 +7,11 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <div className="nav-brand">
-          <h2>HonesTech</h2>
-          <span>Enterprises</span>
+          <div className="logo-icon">HT</div>
+          <div>
+            <h2>HonesTech</h2>
+            <span>Enterprises</span>
+          </div>
         </div>
         
         <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
